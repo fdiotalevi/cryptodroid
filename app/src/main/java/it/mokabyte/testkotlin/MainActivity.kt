@@ -19,5 +19,4 @@ class MainActivity : AppCompatActivity() {
         val btcValueTextView = findViewById<View>(R.id.btcValue) as TextView
         queue!!.publishQuote("BTC", btcValueTextView)
     }
-
 }
